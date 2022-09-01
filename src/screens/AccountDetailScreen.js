@@ -217,7 +217,7 @@ class AccountDetailScreen extends React.Component {
       this.props.navigate("/account/" + content);
       window.location.reload();
     } else if (header === "txHash") {
-      // this.props.history.push("path/to/push");
+      this.props.navigate("/transaction/" + content);
     }
   };
 

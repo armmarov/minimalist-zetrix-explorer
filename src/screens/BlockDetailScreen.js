@@ -225,7 +225,7 @@ class BlockDetailScreen extends React.Component {
     } else if (header === "to") {
       this.props.navigate("/account/" + content);
     } else if (header === "txHash") {
-      // this.props.history.push("path/to/push");
+      this.props.navigate("/transaction/" + content);
     }
   };
 
