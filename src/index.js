@@ -5,8 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import axios from "axios";
 
+axios.defaults.baseURL = process.env.REACT_APP_BASEURL;
 // axios.defaults.baseURL = 'http://52.81.215.222:19333';
-axios.defaults.baseURL = 'http://18.136.67.108:19333';
+//axios.defaults.baseURL = 'http://18.136.67.108:19333';
 // axios.defaults.headers.common['Authorization'] = 'Bearer';
 // axios.defaults.headers.post['Content-Type'] = 'application/json';
 
